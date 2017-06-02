@@ -1,0 +1,18 @@
+{
+  "name": "auth0-lambda-authorizer",
+  "version": "1.0.0",
+  "description": "a simple jwt lambda custom authorizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asbjørn Thegler <asbjoern@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^7.4.1"
+  },
+  "devDependencies": {
+    "pem-jwk": "^1.5.1",
+    "request": "^2.81.0"
+  }
+}
